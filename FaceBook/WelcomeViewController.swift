@@ -18,19 +18,14 @@ class WelcomeViewController: ViewController {
         super.viewDidLoad()
         
         bonjoirScreen.text = "Welcome, \(String(describing: helloScreen!))"
-        
-        
+
+    
     }
     
-    @IBAction func logOutMenu() {
-        dismiss(animated: true)
-    }
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        guard let mainVC = segue.destination as? ViewController else { return }
-//        mainVC.nameTF?.text = nil
-//
-//
-//    }
+    @IBAction func unwind(for unwindSegue: UIStoryboardSegue) {
+        nameTF?.text = ""
+        passwordTF?.text = ""
+    }
 
 }

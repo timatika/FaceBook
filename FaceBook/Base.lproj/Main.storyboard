@@ -119,36 +119,35 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="znD-JL-TQE">
-                                <rect key="frame" x="132" y="712" width="150" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PI9-K0-1Gw">
+                                <rect key="frame" x="132" y="672" width="150" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="znD-JL-TQE" secondAttribute="height" multiplier="5:2" id="Xy1-7d-dmN"/>
+                                    <constraint firstAttribute="width" secondItem="PI9-K0-1Gw" secondAttribute="height" multiplier="5:2" id="KUV-02-Pn2"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemIndigoColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Log out"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <action selector="logOutMenu" destination="nwO-vN-e3Z" eventType="touchUpInside" id="A3a-qB-6SE"/>
+                                    <segue destination="UMg-Yk-NnS" kind="unwind" unwindAction="unwindFor:" id="Vo0-wZ-rx7"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DYX-6c-SjW"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
+                            <constraint firstItem="DYX-6c-SjW" firstAttribute="trailing" secondItem="PI9-K0-1Gw" secondAttribute="trailing" constant="132" id="6yU-by-922"/>
                             <constraint firstItem="CNs-B9-tri" firstAttribute="leading" secondItem="DYX-6c-SjW" secondAttribute="leading" constant="60" id="Kc0-a5-UDf"/>
                             <constraint firstItem="CNs-B9-tri" firstAttribute="top" secondItem="DYX-6c-SjW" secondAttribute="top" constant="60" id="Rm8-Ou-GcQ"/>
-                            <constraint firstItem="DYX-6c-SjW" firstAttribute="bottom" secondItem="znD-JL-TQE" secondAttribute="bottom" constant="90" id="Sph-tS-amr"/>
                             <constraint firstItem="DYX-6c-SjW" firstAttribute="trailing" secondItem="CNs-B9-tri" secondAttribute="trailing" constant="60" id="VVs-Da-MhB"/>
-                            <constraint firstItem="znD-JL-TQE" firstAttribute="leading" secondItem="DYX-6c-SjW" secondAttribute="leading" constant="132" id="WwK-zt-l89"/>
-                            <constraint firstItem="DYX-6c-SjW" firstAttribute="trailing" secondItem="znD-JL-TQE" secondAttribute="trailing" constant="132" id="dDf-mv-chj"/>
+                            <constraint firstItem="PI9-K0-1Gw" firstAttribute="leading" secondItem="DYX-6c-SjW" secondAttribute="leading" constant="132" id="kuN-su-3hQ"/>
+                            <constraint firstItem="DYX-6c-SjW" firstAttribute="bottom" secondItem="PI9-K0-1Gw" secondAttribute="bottom" constant="130" id="m9C-kh-fOP"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="1DK-yy-rZd"/>
                     <connections>
                         <outlet property="bonjoirScreen" destination="CNs-B9-tri" id="crO-OX-4x5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Hv-2I-Z7Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="UMg-Yk-NnS" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="676.81159420289862" y="83.705357142857139"/>
         </scene>
@@ -156,9 +155,6 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

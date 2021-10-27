@@ -17,6 +17,8 @@
 		81DDF55F2728979A00852479 /* FaceBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DDF55E2728979A00852479 /* FaceBookTests.swift */; };
 		81DDF5692728979A00852479 /* FaceBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DDF5682728979A00852479 /* FaceBookUITests.swift */; };
 		81DDF56B2728979A00852479 /* FaceBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DDF56A2728979A00852479 /* FaceBookUITestsLaunchTests.swift */; };
+		81DDF5782728A88F00852479 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DDF5772728A88F00852479 /* UsersViewController.swift */; };
+		81DDF5BD2729C9FA00852479 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DDF5BC2729C9FA00852479 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		81DDF5642728979A00852479 /* FaceBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DDF5682728979A00852479 /* FaceBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookUITests.swift; sourceTree = "<group>"; };
 		81DDF56A2728979A00852479 /* FaceBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81DDF5772728A88F00852479 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		81DDF5BC2729C9FA00852479 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,9 @@
 			children = (
 				81DDF5442728979400852479 /* AppDelegate.swift */,
 				81DDF5462728979400852479 /* SceneDelegate.swift */,
+				81DDF5772728A88F00852479 /* UsersViewController.swift */,
 				81DDF5482728979400852479 /* ViewController.swift */,
+				81DDF5BC2729C9FA00852479 /* WelcomeViewController.swift */,
 				81DDF54A2728979400852479 /* Main.storyboard */,
 				81DDF5502728979900852479 /* Assets.xcassets */,
 				81DDF5522728979900852479 /* LaunchScreen.storyboard */,
@@ -263,6 +269,8 @@
 			files = (
 				81DDF5492728979400852479 /* ViewController.swift in Sources */,
 				81DDF5452728979400852479 /* AppDelegate.swift in Sources */,
+				81DDF5782728A88F00852479 /* UsersViewController.swift in Sources */,
+				81DDF5BD2729C9FA00852479 /* WelcomeViewController.swift in Sources */,
 				81DDF5472728979400852479 /* SceneDelegate.swift in Sources */,
 				81DDF54F2728979400852479 /* FaceBook.xcdatamodeld in Sources */,
 			);
